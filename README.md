@@ -1,5 +1,3 @@
-https://github.com/DenizzALP/WorldCountriesDataVisualization.git
-
 # World Countries Data Visualization
 
 A powerful and interactive web application that allows users to explore data about all countries in the world based on name, capital city, or spoken languages. This project also includes visual representations of global population and language statistics using dynamic charts and bar graphs.
@@ -53,6 +51,7 @@ A powerful and interactive web application that allows users to explore data abo
 ├── style.css         # Stylesheet
 ├── script.js         # Application logic
 └── countries.js      # Countries data (JSON format)
+```
 
 ## How It Works
 
