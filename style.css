@@ -1,0 +1,242 @@
+/* Reset */
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+
+}
+/*-----*/
+
+
+.main-container{
+    width: 100%;
+    background-color: #FCFCFC;
+}
+
+
+.title-container{
+    width: 99%;
+    background-color:#F7F7F7;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#big-title{
+    color: #F2AB3F;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+#currently{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#info-msg{
+    color: #F2AB3F;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.input-text-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input-text{
+    width: 100% ;
+    border-radius: 50px;
+    border: 1px solid #F5F2F2 ;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color:#F2AB3F ;
+    padding-left: 10px
+}
+#input-text::placeholder{
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#name-btn, #capital-btn, #population-btn{
+    background-color:#F2AB3F ;
+    border: 0px ;
+    border-radius: 50px;
+    padding: 10px 50px;
+    margin: 10px;
+}
+
+#arrangement-btn{
+    font-size: 2rem;
+    color:#F2AB3F ;
+    border: 0px;
+    background-color: #FCFCFC;
+    
+}
+
+
+
+.output-flag-container{
+    width: 99%;
+    background-color:#F7F7F7;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    gap: 0px 20px;
+    margin-bottom: 0px;
+    padding-bottom:20px ;
+  
+}
+
+.output-flag-small-container{
+    background-color: #FCFCFC;
+    width: 240px;
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.output-flag{
+    width: 70%;
+    height: 10vh;
+    margin: 10px auto;
+}
+.output-flag img{
+    width: 100%; 
+    height: 100%;  
+}
+.output-title{
+    color:#F2AB3F;
+    margin: 10px;
+}
+.output-info{
+    width: 80%;
+    margin: 10px auto;
+    /* margin-left: 40px;
+    margin-top:10px ; */
+
+
+}
+.output-info p{
+    margin: 0;
+    padding: 0;
+    white-space: normal; /* Alt satırlara geçmesini sağlar */
+    word-wrap: break-word; /* Uzun kelimeleri böler */
+}
+.select-buttons{
+    background-color: #FFFFFF;
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.select-buttons-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#population, #languages{
+    background-color: #FFA500;
+    border: 0px;
+    padding: 5px 30px;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.output{
+    width:99% ;
+    margin: 0 auto;
+    background-color: #F0F0F0;
+    /* height: 100vh; */
+}
+.output-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;  
+}
+.column-country{
+    width: 18%;
+    margin: 10px;
+
+
+}
+.column-chart{
+    width: 60%;
+    margin: 10px;
+
+
+}
+.column-value{
+    width:18%;
+    margin: 10px;
+
+
+}
+/* === */
+/* created with script */
+.text-style{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.number-style{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.chart-style{
+margin-bottom: 30px;
+background-color: #FFA500;
+height: 28px;
+border-radius: 5px;
+}
+.bottom{
+    margin:10px auto;
+    background-color: #EBE6E6;
+    width: 99%;
+    display: flex;
+    height:8vh;
+}
+.signature{
+    width: 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signature h1{
+    color: #FFA500;
+}
+.arrow-up-container{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow-up-btn{
+    background-color: #EBE6E6;
+    color: #FFA500;
+    border: 0px;
+    font-size: 2rem;
+}

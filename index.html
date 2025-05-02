@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Countries Data</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="main-container">
+        <div class="title-container">
+            <h1 id="big-title">World Countries Data</h1>
+            <p id="currently">Currently, we have 250 countries</p>
+            <p id="info-msg"></p>
+        </div>
+        <div class="input-container">
+            <div class="input-text-container">
+                <input type="text" name="" id="input-text" placeholder="Search country by name city and languages">
+            </div>
+            <div class="buttons">
+                <button id="name-btn">NAME</button>
+                <button id="capital-btn">CAPITAL</button>
+                <button id="population-btn">POPULATION</button>
+                <button id="arrangement-btn"><i class="fa-solid fa-chart-column"></i></button>
+            </div>
+        </div>
+        <!-- =============== -->
+        <div class="output-flag-container">
+            <!-- <div class="output-flag-small-container">
+                <div class="output-flag">
+                    <img src="https://flagcdn.com/ax.svg" alt="">
+                </div>
+                <div class="output-title">
+                     <p id="output-title-text">
+                        UGANDA
+                     </p>   
+                </div>
+                <div class="output-info">
+                    <p>Capital:ankara</p>
+                    <p>Language:English</p>
+                    <p>population:555555555</p>
+                </div>
+            </div>
+            <div class="output-flag-small-container">
+                <div class="output-flag">
+                    <img src="https://flagcdn.com/ax.svg" alt="">
+                </div>
+                <div class="output-title">
+                     <p id="output-title-text">
+                        UGANDA
+                     </p>   
+                </div>
+                <div class="output-info">
+                    <p>Capital:ankara</p>
+                    <p>Language:English</p>
+                    <p>population:555555555</p>
+                </div>
+            </div> -->
+        </div>
+
+        <!-- ----------------------------------------------------------------------------- -->
+        <div class="select-buttons">
+            <div class="select-buttons-row">
+                <button id="population">Population</button>
+                <button id="languages">Languages</button>
+            </div>
+            <p id="buttons-titles"></p>
+        </div>
+
+        <div class="output">
+            <div class="output-container">
+                <div class="column-country">
+                    
+                </div>
+                <div class="column-chart">
+                    
+                </div>
+                <div class="column-value">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="signature">
+                <h1>D A</h1>
+            </div>
+            <div class="arrow-up-container">
+                <button class="arrow-up-btn"><i class="fa-solid fa-arrow-up"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./countries.js"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
